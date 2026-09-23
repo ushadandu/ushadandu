@@ -1,16 +1,33 @@
-## Hi there 👋
+Dandu Usha
 
-<!--
-**ushadandu/ushadandu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Artificial Intelligence & Machine Learning Engineering Student
 
-Here are some ideas to get you started:
+I am a final-year B.Tech student specializing in Artificial Intelligence and Machine Learning, interested in developing practical solutions using machine learning and data-driven technologies.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Technical Skills
+
+- Python
+- Artificial Intelligence
+- Machine Learning
+- Data Analytics
+- Git & GitHub
+- Problem Solving
+
+Featured Project
+
+Multi Parameter Disaster Detector
+
+An AI/ML-based project focused on analyzing multiple parameters to assist in detecting potential disaster conditions.
+
+Achievement
+
+🏆 2nd Prize – Hackathon
+
+Education
+
+B.Tech – Artificial Intelligence & Machine Learning
+DRK Institute of Science and Technology
+2023 – 2027
+
+Connect with me
+LinkedIn: https://www.linkedin.com/in/ushadandu
