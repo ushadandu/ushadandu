@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dandu Usha | AI & Machine Learning Engineering Student</title>
+  <meta name="description" content="Personal portfolio of Dandu Usha, a 4th-year Artificial Intelligence & Machine Learning Engineering student at DRK Institute of Science and Technology.">
+  <meta name="author" content="Dandu Usha">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dandu Usha - AIML Engineering Student Portfolio">
+  <meta property="og:description" content="Passionate about AI, Machine Learning, and building technology-driven solutions. Explore projects, skills, education, and achievements.">
+
+  <!-- Fonts (Inter & JetBrains Mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Toast Notification Container for Copied Info -->
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Dandu Usha Portfolio">
+        <span class="logo-badge">DU</span>
+        <span class="logo-text">Dandu Usha</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Controls: Theme Toggle & Mobile Menu Button -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-icon theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">
+          <!-- Sun Icon (shows in dark mode) -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+          <!-- Moon Icon (shows in light mode) -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <button id="mobile-menu-toggle" class="btn-icon mobile-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" x2="20" y1="12" y2="12"></line>
+            <line x1="4" x2="20" y1="6" y2="6"></line>
+            <line x1="4" x2="20" y1="18" y2="18"></line>
+          </svg>
+          <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section section">
+      <div class="container hero-container">
+        
+        <div class="hero-badge-wrap">
+          <div class="status-indicator">
+            <span class="status-dot"></span>
+            <span class="status-text">4th-Year Undergraduate &bull; DRK Institute of Science and Technology</span>
+          </div>
+        </div>
+
+        <h1 class="hero-title">
+          Dandu Usha
+        </h1>
+
+        <p class="hero-subtitle">
+          AI &amp; Machine Learning Engineering Student
+        </p>
+
+        <p class="hero-intro">
+          Passionate about Artificial Intelligence, Machine Learning, and building technology-driven solutions. I enjoy learning new technologies, solving problems, and turning ideas into practical projects.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <span>View My Projects</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Contact Me</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Quick Links / Presence -->
+        <div class="hero-meta">
+          <a href="https://github.com/ushadandu" target="_blank" rel="noopener noreferrer" class="meta-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+            <span>github.com/ushadandu</span>
+          </a>
+          <div class="meta-separator">&bull;</div>
+          <a href="https://www.linkedin.com/in/ushadandu" target="_blank" rel="noopener noreferrer" class="meta-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+            <span>linkedin.com/in/ushadandu</span>
+          </a>
+          <div class="meta-separator">&bull;</div>
+          <a href="mailto:ushadandu30@gmail.com" class="meta-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            <span>ushadandu30@gmail.com</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="about-section section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Background &amp; Overview</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="about-text-col">
+            <p class="about-lead">
+              I am a 4th-year <strong>Artificial Intelligence &amp; Machine Learning (AIML) Engineering</strong> student at <strong>DRK Institute of Science and Technology</strong>.
+            </p>
+            
+            <p>
+              My academic journey has built a solid foundation in computer science principles, algorithmic thinking, and modern intelligent systems. I have a keen interest in Artificial Intelligence, Machine Learning techniques, software development, problem-solving, and continuous learning.
+            </p>
+
+            <p>
+              I focus on understanding how intelligent algorithms and data-driven methods can translate into practical technology solutions. I am committed to continuous improvement, strengthening my technical skillset, and developing structured, dependable software.
+            </p>
+
+            <!-- Key Highlights Box -->
+            <div class="about-details-card">
+              <div class="detail-row">
+                <span class="detail-label">Degree</span>
+                <span class="detail-val">B.Tech in Artificial Intelligence &amp; Machine Learning</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Current Status</span>
+                <span class="detail-val">Currently in 4th Year</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Institution</span>
+                <span class="detail-val">DRK Institute of Science and Technology</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Field</span>
+                <span class="detail-val">Artificial Intelligence &amp; Machine Learning</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cards-col">
+            
+            <div class="info-card">
+              <div class="info-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div class="info-card-body">
+                <h3>Problem-Solving Mindset</h3>
+                <p>Analyzing challenges methodically from the ground up, decomposing complexities into structured, computable logic.</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m18 16 4-4-4-4"></path>
+                  <path d="m6 8-4 4 4 4"></path>
+                  <path d="m14.5 4-5 16"></path>
+                </svg>
+              </div>
+              <div class="info-card-body">
+                <h3>Software Fundamentals</h3>
+                <p>Grounded in core programming languages including Python, Java, and C, with knowledge of databases and web development basics.</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                  <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+              </div>
+              <div class="info-card-body">
+                <h3>Continuous Learning</h3>
+                <p>Consistently exploring new methodologies, algorithms, and engineering frameworks to stay current with the rapidly evolving tech landscape.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills-section section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills</h2>
+          <p class="section-desc">A categorized overview of programming languages, intelligence domains, and development technologies.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-categories-grid">
+
+          <!-- Category 1: AI & Data Science -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                  <path d="M2 12h20"></path>
+                </svg>
+              </div>
+              <h3>AI &amp; Data Science</h3>
+            </div>
+            <div class="skill-tags-list">
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">Machine Learning</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">Artificial Intelligence</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">Data Analytics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Programming Languages -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags-list">
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">Python</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">Java</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">C</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">SQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Web Technologies -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                  <path d="M3 9h18"></path>
+                  <path d="M9 21V9"></path>
+                </svg>
+              </div>
+              <h3>Web Development</h3>
+            </div>
+            <div class="skill-tags-list">
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">HTML</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">CSS</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-bullet"></span>
+                <span class="skill-name">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Comprehensive Clean Badges View -->
+        <div class="all-skills-strip">
+          <div class="strip-header">Skillset:</div>
+          <div class="strip-badges">
+            <span class="badge">Python</span>
+            <span class="badge">Java</span>
+            <span class="badge">C</span>
+            <span class="badge">Machine Learning</span>
+            <span class="badge">Artificial Intelligence</span>
+            <span class="badge">Data Analytics</span>
+            <span class="badge">SQL</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects-section section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Academic Work</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-desc">Key engineering and machine learning solution developed during my academic program.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Main Featured Project -->
+          <article class="project-card featured-project">
+            
+            <div class="project-header">
+              <div class="project-type-tag">
+                <span class="dot-active"></span>
+                <span>AI &amp; Machine Learning Project</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/ushadandu" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View on GitHub" aria-label="View on GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  <span>View on GitHub</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">Multi Parameter Disaster Detector</h3>
+              
+              <p class="project-description">
+                An AI/ML-based project designed to analyze multiple parameters and help detect potential disaster conditions. The project focuses on using technology and data-driven analysis for early detection and decision support.
+              </p>
+
+              <!-- Tech Stack Tags (Only user-specified skills) -->
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">Artificial Intelligence</span>
+                <span class="tech-tag">Data Analytics</span>
+              </div>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <section id="achievements" class="achievements-section section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Recognition &amp; Honors</span>
+          <h2 class="section-title">Achievements</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="achievements-grid single-achievement-grid">
+          
+          <div class="achievement-card">
+            <div class="achievement-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                <path d="M4 22h16"></path>
+                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+              </svg>
+            </div>
+            <div class="achievement-details">
+              <div class="achievement-meta">
+                <span class="achievement-badge">Award / Recognition</span>
+              </div>
+              <h3 class="achievement-title">1st Prize – Hackathon</h3>
+              <p class="achievement-desc">
+                Secured 1st prize in a hackathon by developing and presenting an innovative technology-based solution.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="education-section section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-desc">My formal engineering education and foundational schooling milestones.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline">
+
+          <!-- 1. B.Tech -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot current-study"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-period">Currently in 4th Year</span>
+                <span class="status-pill">In Progress</span>
+              </div>
+              <h3 class="timeline-degree">B.Tech – Artificial Intelligence &amp; Machine Learning</h3>
+              <h4 class="timeline-institution">DRK Institute of Science and Technology</h4>
+            </div>
+          </div>
+
+          <!-- 2. Intermediate -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-period">Completed 2023</span>
+              </div>
+              <h3 class="timeline-degree">Intermediate Education</h3>
+            </div>
+          </div>
+
+          <!-- 3. Secondary School -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-period">Completed 2021</span>
+              </div>
+              <h3 class="timeline-degree">Secondary School Education (Class X)</h3>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-desc">
+            I am always open to discussing new opportunities, machine learning projects, or professional collaborations. Feel free to reach out via email, phone, LinkedIn, or GitHub.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <!-- Four Clearly Visible Contact Options -->
+        <div class="contact-cards-grid contact-cards-clean">
+          
+          <!-- 1. Email -->
+          <a href="mailto:ushadandu30@gmail.com" class="contact-card contact-card-link" aria-label="Send email to ushadandu30@gmail.com">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Email</span>
+              <span class="contact-value" id="email-text">ushadandu30@gmail.com</span>
+            </div>
+            <div class="contact-action-badge">
+              <span>Open Mail</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </div>
+          </a>
+
+          <!-- 2. Phone -->
+          <!-- Phone Number: Easily editable in source code below -->
+          <a href="tel:+919391175099" class="contact-card contact-card-link" aria-label="Call +91 9391175099">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Phone</span>
+              <span class="contact-value" id="phone-text">+91 9391175099</span>
+            </div>
+            <div class="contact-action-badge">
+              <span>Call</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </div>
+          </a>
+
+          <!-- 3. LinkedIn -->
+          <a href="https://www.linkedin.com/in/ushadandu" target="_blank" rel="noopener noreferrer" class="contact-card contact-card-link" aria-label="Visit LinkedIn profile">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">linkedin.com/in/ushadandu</span>
+            </div>
+            <div class="contact-action-badge">
+              <span>Visit</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </div>
+          </a>
+
+          <!-- 4. GitHub -->
+          <a href="https://github.com/ushadandu" target="_blank" rel="noopener noreferrer" class="contact-card contact-card-link" aria-label="Visit GitHub profile">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">github.com/ushadandu</span>
+            </div>
+            <div class="contact-action-badge">
+              <span>Visit</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-name">Dandu Usha</span>
+        <span class="footer-tagline">AI &amp; Machine Learning Engineering Student</span>
+        <p class="footer-college">DRK Institute of Science and Technology</p>
+      </div>
+
+      <div class="footer-center">
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-socials">
+          <a href="https://github.com/ushadandu" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/ushadandu" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+          <a href="mailto:ushadandu30@gmail.com" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+          </a>
+        </div>
+        <p class="copyright">&copy; 2026 Dandu Usha. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Floating Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Scroll back to top" title="Back to Top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
