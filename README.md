@@ -21,7 +21,7 @@ An AI/ML-based project focused on analyzing multiple parameters to assist in det
 
 Achievement
 
-Hackathon winner
+Hackathon 1st price winner
 
 Education
 
